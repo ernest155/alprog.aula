@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int qtd_km,qtd_dias, km, dias;
+    
+    printf("Infomer quantos km: ");
+    scanf("%d", &qtd_km);
+    
+    printf("Informe os dias: ");
+    scanf("%d", &qtd_dias);
+    
+    km = qtd_km * 0.20;
+    dias = qtd_dias * 90;
+    
+    printf("total de km a pagar = %d\n ",km );
+    printf("total dias  = %d\n", dias);
+
+    return 0;
+}
