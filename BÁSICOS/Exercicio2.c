@@ -1,3 +1,4 @@
+//peguntar nome e idade do usuário.
 #include <stdio.h>
 
 int main()
