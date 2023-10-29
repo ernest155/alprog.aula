@@ -1,0 +1,24 @@
+//SOMA e MÉDIA dos números digitados pelo usuário
+#include <stdio.h>
+
+int main()
+{
+    int soma = 0, n, i = 0;
+    float media;
+    
+    printf("Digite n: ");
+    scanf("%d", &n);
+    
+    while(n > 0)
+    {   i++;              // quantidade de repetições
+        soma = soma + n; // soma dos numeros informados pelo usuário
+        printf("Digite n: ");
+        scanf("%d", &n);
+        
+    }
+    media = (float) soma/i;
+    printf("Soma: %d\n", soma);
+    printf("media: %.0f", media);
+    
+
+}
