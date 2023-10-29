@@ -1,3 +1,4 @@
+//Valor do produto com desconto
 #include <stdio.h>
 
 int main()
